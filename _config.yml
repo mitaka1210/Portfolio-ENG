@@ -1,0 +1,26 @@
+title: Portfolio
+email: dimitar_dimitrov12@mail.bg
+description: Hi there !
+destination: docs
+baseurl: "/Portfolio" 
+url: "" 
+twitter_username: dimitar12101
+github_username:  mitaka1210
+
+# Build settings
+#markdown: kramdown
+plugins:
+  - jekyll-feed
+
+# exclude:
+#  - .sass-cache/
+#  - .jekyll-cache/
+#  - gemfiles/
+#  - Gemfile
+#  - Gemfile.lock
+#  - node_modules/
+#  - node_modules
+#  - vendor/bundle/
+#  - vendor/cache/
+#  - vendor/gems/
+#  - vendor/ruby/

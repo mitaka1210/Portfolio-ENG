@@ -1,0 +1,16 @@
+/*! Remove all default whitespace*/
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+ /*! Reset CSS box Model sizing calculation*/
+ 
+html {
+    box-sizing: border-box;
+}
+
+ *,*:before,*:after{
+     /*box-sizing: inherit;*/
+ }

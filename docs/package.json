@@ -1,0 +1,44 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "ansi-gray": "^0.1.1",
+    "ansi-wrap": "^0.1.0",
+    "arr-diff": "^4.0.0",
+    "arr-flatten": "^1.1.0",
+    "arr-union": "^3.1.0",
+    "array-each": "^1.0.1",
+    "array-slice": "^1.1.0",
+    "array-unique": "^0.3.2",
+    "assign-symbols": "^1.0.0",
+    "atob": "^2.1.2",
+    "child_process": "^1.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "gulp-size": "^3.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-exec": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mitaka1210/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mitaka1210/Portfolio/issues"
+  },
+  "homepage": "https://github.com/mitaka1210/Portfolio#readme"
+}

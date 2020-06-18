@@ -1,0 +1,389 @@
+
+
+nav {
+    height: 7vh;
+    z-index: 9999;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: #00a8ff;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.landing {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing h1 {
+    margin: 100px;
+    font-size: 50px;
+    color: lightskyblue;
+}
+
+@media screen and ( max-width: 768px) {
+    
+    .line {
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        margin: 5px;
+    }
+    nav {
+        position: relative;
+        width: 49.22em;
+        /*height: 8vh;
+        width: 122%;*/
+    }
+    .hamburger {
+        position: fixed;
+        cursor: pointer;
+        right: 7%;
+        background-color: greenyellow;
+        /*top: 6%;*/
+        
+        margin-top: .5em;
+        transform: translate(-5% -50%);
+        z-index: 99999;
+    }
+    
+    @mixin chrome-styles {
+        @media screen and (-webkit-min-device-pixel-ratio:0)
+          and (min-resolution:.001dpcm) {
+            @content;
+        }
+      }
+    @include chrome-styles {
+        .nav-links {
+            clip-path: circle(1500px at 90% 50%);
+            -webkit-clip-path: circle(100px at 90% -20%);
+         
+            //height: 13vh;
+            //width: 100%;
+            //height: 100%;
+        }
+        .nav-links.open {
+            background-color: green;
+            clip-path: circle(100px at 90% -7%);
+            -webkit-clip-path: circle(1500px at 90% -20%);
+            height: 138vh;
+            width: 100%;
+      }
+    }
+    .nav-links {
+        position: fixed;
+        background-color: #00a8ff;
+        //height: 110vh;
+        width: 100%;
+        flex-direction: column;
+        //clip-path: circle(100px at 90% -10%);
+        //-webkit-clip-path: circle(100px at 90% -10%);
+        transition: all 1s ease-out;
+        pointer-events: none;
+        z-index: 1;
+    }
+    .nav-links.open {
+      
+    
+       
+        pointer-events: all;
+    
+        z-index: 1;
+    }
+    .landing {
+        flex-direction: column;
+    }
+    .nav-links li {
+        opacity: 0;
+    }
+    .nav-links li a {
+        font-size: 25px;
+    }
+    /*! Скороста на показване на всяко меню след като кликнем на burger менюто*/
+    .nav-links li:nth-child(1) {
+        transition: all .5s ease .2s;
+    }
+    .nav-links li:nth-child(2) {
+        transition: all .5s ease .4s;
+    }
+    .nav-links li:nth-child(3) {
+        transition: all .5s ease .6s;
+        padding-bottom: 10em;
+    }
+    li.fade {
+        opacity: 5;
+    }
+}
+@media screen and ( max-width: 500px ){
+    
+    nav{
+        width: 30.2em;
+        z-index: 9999;
+    }
+    h1 {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        top: -2em;
+        /* font-size: 2em; */
+        font-size: 144px;
+    }
+    h2 {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        top: -2em;
+        /* font-size: 2em; */
+        font-size: 144px;
+    }
+    .hamburger{
+       
+        z-index: 99999;
+    }
+
+
+
+    @mixin chrome-styles {
+        @media screen and (-webkit-min-device-pixel-ratio:0)
+          and (min-resolution:.001dpcm) {
+            @content;
+        }
+      }
+    @include chrome-styles {
+        .nav-links {
+            clip-path: circle(100px at 90% -7%);
+            -webkit-clip-path: circle(131px at 90% -10%);
+            height: 130vh;
+            //width: 100%;
+            //height: 100%;
+        }
+        .nav-links.open{
+            
+            clip-path: circle(1000px at 90% -7%);
+            -webkit-clip-path: circle(1003px at 98% 20%);
+            height: 129vh;
+            //width: 100%;
+            background-image: linear-gradient(to left bottom, #d16b6b, #df7853, #df8d35, #cea712, #acc200, #9fd000, #8ddd0a, #73eb21, #95ef2f, #b1f33f, #caf74f, #e0fb5f);
+        }
+      }
+}
+
+@media screen and ( max-width: 500px){
+            @-moz-document url-prefix() {
+                
+            .nav-links{
+                background: none;
+                clip-path: circle(1000px at 90% -7%);
+                clip-path: circle(153px at 90% -10%);
+                height: 130vh;
+            }
+            .nav-links.open{
+                
+                clip-path: circle(200px at 90% -7%);
+                clip-path: circle(2003px at 98% 20%);
+                height: 129vh;
+                //width: 100%;
+               
+            }
+            
+        }
+}
+
+@media screen and ( max-width: 425px){
+    
+    .site-header {
+        background-color: #00a8ff;
+        width: 100.1%;
+    }
+    nav {
+        width: 48em;
+    }
+    @supports (-moz-appearance:none) {
+        .nav-links{
+            //clip-path: circle(1000px at 90% -7%);
+            //-webkit-clip-path: circle(100px at 90% -7%);
+        }
+       
+    }
+    @mixin chrome-styles {
+        @media screen and (-webkit-min-device-pixel-ratio:0)
+          and (min-resolution:.001dpcm) {
+            @content;
+        }
+      }
+    @include chrome-styles {
+        .nav-links {
+            clip-path: circle(1000px at 90% -7%);
+            -webkit-clip-path: circle(153px at 90% -10%);
+            height: 130vh;
+            //width: 100%;
+            //height: 100%;
+        }
+        .nav-links.open{
+            
+            clip-path: circle(2000px at 90% -7%);
+            -webkit-clip-path: circle(2003px at 98% 30%);
+            height: 254vh;
+            //width: 100%;
+            background-color: green;
+        }
+      }
+    
+    
+  
+    .line {
+        width: 60px;
+        height: 8px;
+        background-color: white;
+        margin: 5px;
+    }
+    .hamburger {
+        
+       margin-top: .5em;
+    }
+}
+@media screen and ( max-width: 375px ){
+  
+    .site-header {
+        background-color: #00a8ff;
+        width: 45.1%;
+    }
+    nav {
+        width: 22.5em;
+    }
+    .hamburger {
+        right: 5%;
+    }
+
+    @mixin chrome-styles {
+        @media screen and (-webkit-min-device-pixel-ratio:0)
+          and (min-resolution:.001dpcm) {
+            @content;
+        }
+      }
+    @include chrome-styles {
+        .nav-links {
+            clip-path: circle(1000px at 90% -7%);
+            -webkit-clip-path: circle(153px at 90% -10%);
+            height: 130vh;
+            //width: 100%;
+            //height: 100%;
+        }
+        .nav-links.open{
+            
+            clip-path: circle(2000px at 90% -7%);
+            -webkit-clip-path: circle(2003px at 98% 20%);
+            height: 134vh;
+            //width: 100%;
+            background-color: green;
+        }
+      }
+    .line {
+        width: 35px;
+        height: 3px;
+    }
+}
+
+@media screen and ( max-width: 360px ){
+body {
+    width: 100%;
+}
+    .site-header {
+        background-color: #00a8ff;
+        width: 111%;
+    }
+    nav {
+    
+        width: 35.5em;
+    }
+    //.site-nav-header {
+       
+    //    width: 225%;
+    //}
+    
+    .hamburger {
+        right: 5%;
+    }
+
+    @mixin chrome-styles {
+        @media screen and (-webkit-min-device-pixel-ratio:0)
+          and (min-resolution:.001dpcm) {
+            @content;
+        }
+      }
+    @include chrome-styles {
+        .nav-links {
+            clip-path: circle(1000px at 90% -9%);
+            -webkit-clip-path: circle(130px at 90% -10%);
+            height: 130vh;
+            width: 100%;
+            //height: 100%;
+        }
+        .nav-links.open{
+            
+            clip-path: circle(1000px at 90% -7%);
+            -webkit-clip-path: circle(923px at 98% 20%);
+            height: 198vh;
+            //width: 100%;
+            background-color: green;
+        }
+      }
+      .nav-links{
+         
+        //  right: 1em;
+      }
+    .line {
+        width: 35px;
+        height: 3px;
+    }
+}
+@media screen and ( max-width: 320px ){
+    
+    nav{
+        width: 22.2em;
+    }
+    .hamburger {
+        //width: 12em;
+        top: .2em;
+      
+    } @mixin chrome-styles {
+        @media screen and (-webkit-min-device-pixel-ratio:0)
+          and (min-resolution:.001dpcm) {
+            @content;
+        }
+      }
+    @include chrome-styles {
+        .nav-links {
+            clip-path: circle(1000px at 90% -7%);
+            -webkit-clip-path: circle(153px at 90% -10%);
+            height: 130vh;
+            height: 110vh;
+            width: 100%;
+        }
+        .nav-links.open{
+            
+            clip-path: circle(2000px at 90% -7%);
+            -webkit-clip-path: circle(1003px at 98% 20%);
+            height: 134vh;
+            //width: 100%;
+            background-color: green;
+        }
+      }
+   
+}
