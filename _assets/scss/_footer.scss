@@ -445,8 +445,14 @@
     font-size: 17px;
   }
 
-  #utility-links{
-   
+  #utility-links {
+  
+    width: 90%;
+    height: 150px;
+    padding-top: 3em;
+    margin: 40px auto 0 auto;
+    text-align: center;
+      
   }
 }
 @media screen and ( max-width: 425px ){
@@ -537,7 +543,7 @@
 @media screen and ( max-width: 360px){
   .site-footer {
   
-    width: 111%;
+    width: 131%;
   }
   
   #footer {
@@ -546,23 +552,34 @@
   }
   .help {
     width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
   }
   .social {
 
-    width: 20.5em;
+    width: 30.5em;
     padding-top: 5em;
     padding-left: 4.3em;
     display: flex;
   }
     .left {
-      margin-right: 5em;
+      margin-right: 1em;
     }
   .section{
     width: 100%;
     margin-right: -7em;
    
   }
+  #utility-links {
   
+    width: 90%;
+    height: 150px;
+    padding-top: 3em;
+    margin: 0px auto 0 auto;
+    text-align: center;
+      
+  }
   .section img {
     border:2px solid rgba(12, 0, 0, 0.308);
     border-radius: 50px;
@@ -574,7 +591,7 @@
   .site-footer p {
     
     padding-top: 22em;
-    margin-left: 8em;
+    margin-left: 13em;
     padding-bottom: 0em;
     //padding-bottom: 2em;
     width: 18em;
@@ -821,15 +838,15 @@
   
   /* Utility Links Div Styling */
   
-  #utility-links {
+  //#utility-links {
   
-    width: 90%;
-    height: 150px;
-    padding-top: 3em;
-    margin: 40px auto 0 auto;
-    text-align: center;
+  //  width: 90%;
+  //  height: 150px;
+  //  padding-top: 3em;
+  //  margin: 40px auto 0 auto;
+  //  text-align: center;
       
-  }
+  //}
 //  @supports (-moz-appearance:none) {
 //    .section {
 //      background-color: red;

@@ -237,16 +237,17 @@ h2 span:nth-child(1){
     }
     .container-main{
         
-        width: 111%;
+        width: 131%;
      
     }
     .container-main::before{
-        width: 175%;
+        width: 240%;
+        top: 6.3em;
     }
     .container-main h1,
     .container-main h2{
-        top: -4em;
-        font-size: 99px;
+        top: -2em;
+        font-size: 13em;
         //margin-left: -.1em;
     }
 }

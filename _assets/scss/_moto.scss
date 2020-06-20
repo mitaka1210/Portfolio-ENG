@@ -1,13 +1,13 @@
-body {
-    background-image: linear-gradient(to right top, #4288f2, #00acff, #00c8f1, #00dba5, #11e536);
-}
+//body {
+//    background-image: linear-gradient(to right top, #4288f2, #00acff, #00c8f1, #00dba5, #11e536);
+//}
 .box-about {
     height: 100%;
     display: grid;
     place-items: center;
     text-align: center;
     padding-top: 2em;
-
+    background-image: linear-gradient(to right top, #4288f2, #00acff, #00c8f1, #00dba5, #11e536);
 }
 
 .motto-text2 {
@@ -179,13 +179,23 @@ b {
 
 @media screen and ( max-width: 768px ){
     .box-about {
-        width: 131%;
+        width: 128%;
+        padding-left: 1em;
     }
     .moto {
-        width: 90%;
+        width: 80%;
     }
     .motto-git img {
-        width: 22em;
+        //width: 2em;
+        margin-left: 9em;
+    }
+    .forMe {
+        background-image: linear-gradient(to right top, #4288f2, #00acff, #00c8f1, #00dba5, #11e536);
+        width: 118%;
+    }
+    .bgr-container-card {
+        background-image: linear-gradient(to right top, #4288f2, #00acff, #00c8f1, #00dba5, #11e536);
+        width: 131%;
     }
     
    
@@ -215,7 +225,7 @@ b {
         padding-right: 2em;
     }
     .moto-2 p {
-        width: 89%;
+        width: 100%;
     }
     .bgr-container-card {
         margin-right: 0em;
@@ -232,6 +242,7 @@ b {
         padding: 15px;
         width: 21em;
         height: 52px;
+        margin-left: 0em;
     }
 }
 //@media screen and ( max-width: 425px ){
@@ -342,34 +353,16 @@ b {
         margin-left: 4em;
     }
     .box-about{
-        width: 111%;
-        background-color: red;
+        width: 128%;
+        
     }
     .moto-2{
         width: 30em;
-    margin-left: 8em;
+    
     }
-    //.motto-text2 {
-   
-    //    margin-right: 4em;
-        
-    //}
-    //.moto h4 {
-    //    font-size: .8em;
-    //    width: 18em;
-    //}
-
-    //.ow {
-    //    margin-left: 3.5em;
-    //    padding-left: 2em;
-    //}
-   
-   
-
-    //.motto-git img {
-    //    width: 14em;
-    //    height: 5em;
-    //}
+   .motto-git{
+       margin-left: 8em;
+   }
     .bgr-container-card {
         margin-right: 0em;
     }

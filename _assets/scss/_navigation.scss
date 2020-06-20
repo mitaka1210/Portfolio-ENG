@@ -71,8 +71,8 @@ nav {
       }
     @include chrome-styles {
         .nav-links {
-            clip-path: circle(1500px at 90% 50%);
-            -webkit-clip-path: circle(100px at 90% -20%);
+            clip-path: circle(100px at 90% 50%);
+            -webkit-clip-path: circle(190px at 90% -10%);
          
             //height: 13vh;
             //width: 100%;
@@ -89,11 +89,13 @@ nav {
     .nav-links {
         position: fixed;
         background-color: #00a8ff;
+      
         //height: 110vh;
         width: 100%;
+        
         flex-direction: column;
-        //clip-path: circle(100px at 90% -10%);
-        //-webkit-clip-path: circle(100px at 90% -10%);
+        clip-path: circle(100px at 90% -10%);
+        -webkit-clip-path: circle(100px at 90% -10%);
         transition: all 1s ease-out;
         pointer-events: none;
         z-index: 1;
@@ -208,7 +210,7 @@ nav {
 @media screen and ( max-width: 425px){
     
     .site-header {
-        background-color: #00a8ff;
+        background-color: red;
         width: 100.1%;
     }
     nav {
@@ -261,6 +263,7 @@ nav {
 @media screen and ( max-width: 375px ){
   
     .site-header {
+       
         background-color: #00a8ff;
         width: 45.1%;
     }
@@ -304,18 +307,17 @@ nav {
 body {
     width: 100%;
 }
-    .site-header {
+    .site-nav-header {
+       
         background-color: #00a8ff;
-        width: 111%;
+        width: 290%;
+       
     }
     nav {
     
-        width: 35.5em;
+        width: 100%;
     }
-    //.site-nav-header {
-       
-    //    width: 225%;
-    //}
+   
     
     .hamburger {
         right: 5%;
