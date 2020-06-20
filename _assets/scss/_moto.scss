@@ -162,6 +162,7 @@ b {
     }
     .motto-git img {
         width: 24em;
+        margin-left: 8em;
     }
 }
 @media screen and ( max-width: 978px ){
@@ -225,10 +226,10 @@ b {
         padding-right: 2em;
     }
     .moto-2 p {
-        width: 100%;
+        width: 96%;
     }
     .bgr-container-card {
-        margin-right: 0em;
+        margin-left: -4em;
     }
     .moto {
         display: flex;
@@ -242,7 +243,7 @@ b {
         padding: 15px;
         width: 21em;
         height: 52px;
-        margin-left: 0em;
+        margin-left: 1.4em;
     }
 }
 //@media screen and ( max-width: 425px ){
@@ -365,6 +366,7 @@ b {
    }
     .bgr-container-card {
         margin-right: 0em;
+        margin-left: 0em;
     }
    
 }
