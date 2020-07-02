@@ -6,7 +6,9 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin: 56px;
+    margin: 0 auto;
+    top: 4em;
+    padding-bottom: 3em;
 }
 
 
@@ -50,6 +52,9 @@ box-shadow: 9px 9px 25px 6px rgba(0,0,0,0.75);
 }
 .bgr-4 {
     background-image: linear-gradient(to right top, #e5ccda, #decae2, #d0cbea, #bcccf0, #a4cff1, #96d3f3, #87d8f2, #7adcee, #71e4f1, #69ecf3, #62f3f3, #5ffbf1);
+}
+.bgr-5{
+    background-image: linear-gradient(to right top, #0342d1, #7045ca, #9b4dc2, #ba5abb, #d16bb6, #e372ad, #f17ca6, #fb889f, #ff8e8e, #ff977c, #ffa26c, #fbb05f);
 }
 .container2 .card:hover .imgBx {
     width: 150px;
@@ -130,7 +135,22 @@ box-shadow: 9px 9px 25px 6px rgba(0,0,0,0.75);
     }
     
 }
-
+@media screen and ( max-width: 768px ){
+    .container2 {
+        
+       margin-left: 1em;
+    }
+    .container2 .card .imgBx{
+        width: 140%;
+    }
+    .container2 .card .imgBx img{
+        max-width: 384px;
+    }
+    .card-images {
+        width: 589px;
+        height: 144px;
+    }
+}
 
 
 @media screen and ( max-width: 500px ){
@@ -164,12 +184,17 @@ box-shadow: 9px 9px 25px 6px rgba(0,0,0,0.75);
 }
 @media screen and ( max-width: 375px){
     .container2{
-        width: 50%;
-        margin-left: 0em;
+        width: 90%;
+      margin-left: 0;
+       
     }
     .container2 .card {
         width: 348px;
-        margin-right: 2em;
+        margin-right: 0em;
+        
+    }
+    .container2 .card .imgBx {
+        width: 116%;
         
     }
 }
