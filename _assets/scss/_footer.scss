@@ -51,10 +51,12 @@
   /* Utility Links Div Styling */
 
   #utility-links {
-    width: 50%;
+    width: 92%;
+    display: flex;
     height: 150px;
-    //background-image: linear-gradient(to right top, #4288f2, #00acff, #00c8f1, #00dba5, #11e536);
-    margin: 40px auto 0 auto;
+    margin: 40px auto 0;
+    flex-direction: row;
+    justify-content: center;
   }
 
   /* Help Styling */
@@ -417,8 +419,8 @@
     transition: 1s;
     position: relative;
     bottom: 0px;
-    width: 3em;
-    height: 3em;
+    width: 4em;
+    height: 3.7em;
   }
 
   /* Hover Effects */
@@ -472,8 +474,9 @@
     font-size: 1.1em;
   }
   .site-footer p {
-    padding-top: 3em;
+    position: relative;
     text-align: center;
+    top: 8em;
   }
 }
 /* Responsive */
@@ -491,8 +494,21 @@
 }
 /* When screen resolution less than 768px */
 @media screen and (max-width: 768px) {
+  .site-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
   #footer {
-    width: 131%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    left: 9em;
   }
   .site-footer p {
     margin-left: 5em;
@@ -524,24 +540,18 @@
     text-align: left;
   }
 
-  ul {
-    margin: 0;
+  .help ul {
+    position: relative;
+    display: flex;
     list-style-type: none;
-  }
-
-  li {
-    margin: 0;
-    color: #666666;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 22px;
-    list-style-type: none;
-    text-align: left;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   /* Utility Links Div Styling */
   #utility-links {
-    width: 90%;
+    width: auto;
     height: 150px;
     //background-color:#fff;
     //margin-top: -14em;
@@ -556,8 +566,8 @@
     top: 13em;
     display: flex;
     justify-content: flex-start;
-    width: 80%;
-    margin-left: 1em;
+    width: 90%;
+    margin-left: -2em;
   }
 
   /* Help Styling */
@@ -738,8 +748,13 @@
     font-size: 1.1em;
   }
   .site-footer p {
-    padding-top: 3em;
+    padding-top: 0em;
     text-align: center;
+    top: 12em;
+    position: relative;
+    left: -2em;
+
+    margin: 0 auto;
   }
 }
 /* When screen resolution less than 662px */
@@ -792,17 +807,20 @@
     width: 100%;
     flex-direction: column;
   }
+  #footer {
+    left: 0;
+  }
   //#footer {
   //  background-image: linear-gradient(to right top, #15e11e, #adc800, #e9a900, #ff8e4c, #ff807f, #ff8589, #ff8b93, #ff919d, #ffa189, #ffb873, #ffd561, #fbf45f);
   //}
 
   .help {
     width: 100%;
+    height: auto;
   }
   .section {
     margin: 0 auto;
     display: flex;
-    top: 131px;
   }
   .section img {
     border: 2px solid rgb(8, 0, 0);
@@ -811,9 +829,12 @@
   }
 
   .site-footer p {
-    padding-top: 27.8em;
+    padding-top: 0em;
     text-align: center;
-    margin-left: 0em;
+    margin: 0 auto;
+    position: static;
+    top: 1em;
+    left: -2em;
   }
   .help ul {
     margin: 0;
@@ -838,7 +859,9 @@
   }
   .social {
     width: 100%;
+    position: relative;
     margin: 0 auto;
+    top: 0;
   }
 }
 @media screen and (max-width: 425px) {
@@ -923,7 +946,7 @@
 
 @media screen and (max-width: 360px) {
   .site-footer {
-    width: 131%;
+    width: 137%;
   }
 
   #footer {
@@ -934,6 +957,9 @@
     text-align: center;
     display: flex;
     justify-content: center;
+  }
+  .help ul {
+    justify-content: flex-start;
   }
   .social {
     width: 30.5em;
@@ -946,15 +972,18 @@
   }
   .section {
     width: 100%;
-    margin-top: 18em;
+
     //margin-right: -7em;
   }
   #utility-links {
     width: 90%;
-    height: 150px;
+    height: 0;
     padding-top: 3em;
     margin: 0px auto 0 auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
   .section img {
     border: 2px solid rgba(12, 0, 0, 0.308);
@@ -965,11 +994,11 @@
     height: 31px;
   }
   .site-footer p {
-    padding-top: 22em;
-    margin-left: 13em;
+    padding-top: 42em;
+    margin-right: 8em;
     padding-bottom: 0em;
     //padding-bottom: 2em;
-    width: 18em;
+    width: 60%;
     height: 4em;
   }
 }
@@ -1004,11 +1033,6 @@
 
 @media all and (max-width: 1339px) and (min-width: 600px) {
   /* Footer Parent Div Styling */
-
-  #footer {
-    background-color: #fff;
-    margin: 0 auto;
-  }
 
   /* H3 Styling */
 
@@ -1114,11 +1138,6 @@
     width: 60%;
     font-size: 1.5em;
     margin-left: 15em;
-  }
-  .site-footer p {
-    padding-top: 8em;
-
-    text-align: center;
   }
 }
 

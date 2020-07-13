@@ -11,7 +11,6 @@
 }
 
 .motto-text2 {
-
     padding-top: 1em;
     display: flex;
     flex-direction: column;
@@ -29,9 +28,8 @@
 .motto-git img {
     margin-left: 0em;
 }
-.moto-2 p{
+.moto-2 p {
     background-image: linear-gradient(to right top, #e1154a, #e9570a, #d38e00, #9fbd00, #11e536);
-    
 }
 .moto h4 {
     display: flex;
@@ -40,8 +38,6 @@
     padding-bottom: 1em;
     font-size: 1.5em;
     /*text-align: center;*/
-    
-    
 }
 
 .moto p {
@@ -50,9 +46,8 @@
     text-align: left;
     padding-top: 1em;
     /*text-align: left;*/
-   
+
     border-top: 3px solid #645;
-    
 }
 b {
     font-size: 1.6em;
@@ -70,7 +65,6 @@ b {
     align-items: center;
     //padding: 35px 24px;
     padding-bottom: 1em;
- 
 }
 
 .card-about img {
@@ -83,12 +77,12 @@ b {
     max-width: 350px;
     margin: 0 20px;
     text-align: center;
-    transition: .4s;
+    transition: 0.4s;
     box-shadow: 5px 12px 34px rgba(0, 0, 0, 1);
 }
 .card-about:hover {
     height: 470px;
-    box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 .card-about .img {
     height: 200px;
@@ -100,14 +94,13 @@ b {
     object-fit: cover;
 }
 
-
 .card-about .top-text {
     padding: 5px;
 }
 .top-text h6 {
     font-size: 1.2em;
 }
-.card-about .top-text .name  {
+.card-about .top-text .name {
     font-size: 25px;
     font-weight: 600;
     color: #202020;
@@ -125,10 +118,10 @@ b {
     background-color: wheat;
     opacity: 0;
     visibility: hidden;
-    transition: .1s;    
+    transition: 0.1s;
 }
 
-.card-about:hover .bottom-text{
+.card-about:hover .bottom-text {
     opacity: 1;
     visibility: visible;
 }
@@ -147,13 +140,13 @@ b {
     padding: 5px 8px;
     border-radius: 3px;
     display: inline-flex;
-    transition: .2s;
+    transition: 0.2s;
 }
-.card-about .bottom-text .btn a:hover{
-    transform: scale(.9);
+.card-about .bottom-text .btn a:hover {
+    transform: scale(0.9);
 }
 
-@media screen and ( max-width: 1314px ){
+@media screen and (max-width: 1314px) {
     .moto {
         display: flex;
         align-items: center;
@@ -165,10 +158,9 @@ b {
         margin-left: 0em;
     }
 }
-@media screen and ( max-width: 1024px ){
-    
+@media screen and (max-width: 1024px) {
 }
-@media screen and ( max-width: 978px ){
+@media screen and (max-width: 978px) {
     .containerAbout {
         flex-wrap: wrap;
         flex-direction: column;
@@ -181,7 +173,7 @@ b {
     }
 }
 
-@media screen and ( max-width: 768px ){
+@media screen and (max-width: 768px) {
     .box-about {
         width: 128%;
         padding-left: 1em;
@@ -190,38 +182,29 @@ b {
         width: 80%;
     }
     .motto-git img {
-        //width: 2em;
+        display: block;
+        width: 50%;
         margin-left: 9em;
     }
-    .forMe {
-        background-image: linear-gradient(to right top, #4288f2, #00acff, #00c8f1, #00dba5, #11e536);
-        width: 118%;
-    }
-    .bgr-container-card {
-        background-image: linear-gradient(to right top, #4288f2, #00acff, #00c8f1, #00dba5, #11e536);
-        width: 131%;
-    }
-    
-   
 }
 
-@media screen and ( max-width: 600px ){
+@media screen and (max-width: 600px) {
     .moto {
         width: 79%;
-      }
-      .moto-2 p {
+    }
+    .moto-2 p {
         width: 71%;
-      }
-      
-      .ow {
+    }
+
+    .ow {
         padding-right: 9em;
-      }
-      .bgr-container-card {
+    }
+    .bgr-container-card {
         margin-right: 11em;
-      }
+    }
 }
 
-@media screen and ( max-width: 500px){
+@media screen and (max-width: 500px) {
     .box-about {
         width: 100%;
     }
@@ -246,7 +229,7 @@ b {
     }
 
     .motto-git img {
-        border: 2px solid rgba(158,158,158,.4);
+        border: 2px solid rgba(158, 158, 158, 0.4);
         padding: 15px;
         width: 21em;
         height: 52px;
@@ -293,7 +276,7 @@ b {
 //    .moto-2 p {
 //        font-size: 1.1em;
 //        margin-right: 5em;
-//         margin-left: -2em; 
+//         margin-left: -2em;
 //    }
 //    .bgr-containerAbout-card {
 //        background-image: none;
@@ -302,83 +285,85 @@ b {
 //    }
 //}
 //@media screen and ( max-width: 375px ){
-    //.ow {
-    //    overflow-wrap: break-word;
-    //    word-wrap: break-word;
-    //    hyphens: auto;
-    //}
-    //.motto-text-text2 {
-    //    background-color: red;
-    //    width: 19em;
-    //    margin-right: 23em;
-    //}
-    //.moto-2 {
-    //    padding-left: 0em;
-    //    margin-left: 7em;
-    //    width: 25em;
-    //}
-    //.moto h4 {
-    //    width: 17em;
-    //margin-left: -4em;
-    //}
-    //.moto p {
-    //    width: 18em;
-    //    margin-left: -4em;
-    //}
-    //.forMe {
-    //    width: 40.5%;
-    //    margin-right: 23em;
-    //}
-    //.motto-git {
-    //    margin-left: -4em;
-    //}
-
-    //.motto-git img {
-    //    width: 17em;
-    //    height: 5em;
-    //    margin-left: 3em;
-    //}
-    //.containerAbout{
-    //    display: flex;
-    //    justify-content: center;
-    //    flex-direction: column;
-    //    margin-left: -1em;
-    //}
-    //.bgr-containerAbout-card {
-    //    background-image: none;
-    //    width: 47.8%;
-    //margin-right: 22em;
-    //}
+//.ow {
+//    overflow-wrap: break-word;
+//    word-wrap: break-word;
+//    hyphens: auto;
 //}
-@media screen and ( max-width: 360px){
-   
+//.motto-text-text2 {
+//    background-color: red;
+//    width: 19em;
+//    margin-right: 23em;
+//}
+//.moto-2 {
+//    padding-left: 0em;
+//    margin-left: 7em;
+//    width: 25em;
+//}
+//.moto h4 {
+//    width: 17em;
+//margin-left: -4em;
+//}
+//.moto p {
+//    width: 18em;
+//    margin-left: -4em;
+//}
+//.forMe {
+//    width: 40.5%;
+//    margin-right: 23em;
+//}
+//.motto-git {
+//    margin-left: -4em;
+//}
+
+//.motto-git img {
+//    width: 17em;
+//    height: 5em;
+//    margin-left: 3em;
+//}
+//.containerAbout{
+//    display: flex;
+//    justify-content: center;
+//    flex-direction: column;
+//    margin-left: -1em;
+//}
+//.bgr-containerAbout-card {
+//    background-image: none;
+//    width: 47.8%;
+//margin-right: 22em;
+//}
+//}
+@media screen and (max-width: 360px) {
     body {
         width: 100%;
     }
     .moto {
-      
-       
         margin-left: 4em;
     }
-    .box-about{
-        width: 128%;
-        
+    .box-about {
+        width: 135%;
     }
-    .moto-2{
-        width: 30em;
-    
+    .moto-2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-   .motto-git{
-       margin-left: 8em;
-   }
-    .bgr-container-card {
-        margin-right: 0em;
-        margin-left: 0em;
+    .motto-git {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-   
+    .text-about p {
+        font-size: 18px;
+    }
+    //.bgr-container-card,
+    //.forMe {
+    //    background-image: linear-gradient(to right top, #4288f2, #00acff, #00c8f1, #00dba5, #11e536);
+    //    width: 131%;
+    //}
 }
 
-@media screen and ( max-width: 320px ){
+@media screen and (max-width: 320px) {
     //.moto p {
     //    width: 12em;
     //    font-size: 1.4em;
@@ -387,7 +372,7 @@ b {
 
     //.moto h4 {
     //    font-size: .9em;
-        
+
     //}
     //.moto {
     //    text-align: center;
@@ -417,8 +402,7 @@ b {
     //    display: flex;
     //    justify-content: space-between;
     //    align-items: center;
-       
+
     //    padding: 1em;
     //}
-    
 }

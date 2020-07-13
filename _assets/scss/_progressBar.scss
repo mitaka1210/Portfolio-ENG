@@ -1,17 +1,17 @@
-
 .progress {
-    
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #191919;
-
 }
-@supports (-moz-appearance:none) {
-    .progress{
+@supports (-moz-appearance: none) {
+    .progress {
         margin-top: -1em;
-    } 
+    }
+    .container-progress {
+        top: 6em;
+    }
 }
 .container-progress {
     position: relative;
@@ -32,12 +32,12 @@
     border: 4px;
     text-align: center;
     overflow: hidden;
-    transform: .5s;
+    transition: 0.5s;
 }
 
 .container-progress .card-progress:hover {
     transform: translateY(-10px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
 }
 
 .container-progress .card-progress::before {
@@ -47,7 +47,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(255, 255, 255, .03);
+    background: rgba(255, 255, 255, 0.03);
     pointer-events: none;
     z-index: 1;
 }
@@ -78,7 +78,7 @@
     color: #777;
     font-weight: 700;
     font-size: 40px;
-    transition: .5s;
+    transition: 0.5s;
 }
 .percentNumber {
     top: 0;
@@ -105,7 +105,7 @@
     font-size: 18px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    transition: .5s;
+    transition: 0.5s;
     margin-top: 20px;
 }
 
@@ -155,16 +155,16 @@ svg circle:nth-child(2) {
     /*!  Ако искам линията която запълша кръга да отговаря на процентитие*/
     stroke: #00ff07;
 }
-@media screen and ( max-width: 918px ){
+@media screen and (max-width: 918px) {
     html {
-        overflow-x: hidden;;
+        overflow-x: hidden;
     }
     .progress {
         width: 131%;
     }
     .container-progress {
         width: 874px;
-        padding-left: .5em;
+        padding-left: 0.5em;
         margin-left: 18em;
         flex-direction: column;
     }
@@ -172,17 +172,16 @@ svg circle:nth-child(2) {
         top: 0em;
     }
 }
-@media screen and ( max-width: 768px ){
-    
+@media screen and (max-width: 768px) {
     html {
-        overflow-x: hidden;;
+        overflow-x: hidden;
     }
     .progress {
         width: 131%;
     }
     .container-progress {
         width: 874px;
-        padding-left: .5em;
+        padding-left: 0.5em;
         margin-left: 15em;
         flex-direction: column;
     }
@@ -190,7 +189,7 @@ svg circle:nth-child(2) {
         top: 0em;
     }
 }
-@media screen and ( max-width: 600px) {
+@media screen and (max-width: 600px) {
     body {
         display: flex;
         flex-direction: column;
@@ -202,33 +201,33 @@ svg circle:nth-child(2) {
     }
 }
 
-@media screen and ( max-width: 500px){
+@media screen and (max-width: 500px) {
     .progress {
         width: 100%;
     }
     .container-progress {
         margin-left: 1em;
     }
-    .text{
+    .text {
         margin-top: 66px;
     }
 }
-@media screen and ( max-width: 425px){
+@media screen and (max-width: 425px) {
     .progress {
         width: 105.2%;
     }
 }
-@media screen and ( max-width: 375px ){
+@media screen and (max-width: 375px) {
     .container-progress {
         right: 1.5em;
     }
 }
-@media screen and ( max-width: 360px){
+@media screen and (max-width: 360px) {
     .progress {
-        width: 131%;
+        width: 137%;
     }
 }
-@media screen and (max-width: 320px ){
+@media screen and (max-width: 320px) {
     .container-progress {
         margin-left: -5em;
     }
