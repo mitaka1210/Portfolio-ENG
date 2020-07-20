@@ -25,17 +25,20 @@
     pointer-events: none;
     mix-blend-mode: color;
 }
+
 @-moz-document url-prefix() {
     .container-main::before {
         z-index: -1;
         background: linear-gradient(to right, #f00, #f00, #0f0, #0ff, #ff0, #0ff);
     }
+
     .container-main {
         // z-index: -2;
         height: 43em;
         position: relative;
     }
 }
+
 //@supports (-moz-appearance:none) {
 //    .container-main::before{
 //       z-index: 1;
@@ -57,21 +60,24 @@ h1 {
     padding: 0;
     position: absolute;
     top: 50%;
-    font-family: "Permanent Marker", cursive;
+
     width: 100%;
     transform: translateY(-50%);
     text-align: center;
     color: #ddd;
-
+    font-family: var(--layout-my-name);
+    right: 38px;
     /*font-size: 3em;*/
     letter-spacing: 0.2em;
 }
+
 h2 {
     margin: 0;
     padding: 0;
     position: absolute;
     top: 59%;
     width: 96%;
+    font-family: var(--layout-my-name);
     transform: translateY(-50%);
     text-align: center;
     color: #ddd;
@@ -92,6 +98,7 @@ h2 span {
         transform: rotateY(90deg);
         filter: blur(10px);
     }
+
     100% {
         opacity: 1;
         transform: rotateY(0deg);
@@ -102,21 +109,27 @@ h2 span {
 h1 span:nth-child(1) {
     animation-delay: 2s;
 }
+
 h1 span:nth-child(2) {
     animation-delay: 2.5s;
 }
+
 h1 span:nth-child(3) {
     animation-delay: 3s;
 }
+
 h1 span:nth-child(4) {
     animation-delay: 3.5s;
 }
+
 h1 span:nth-child(5) {
     animation-delay: 3.75s;
 }
+
 h1 span:nth-child(6) {
     animation-delay: 4s;
 }
+
 h1 span:nth-child(7) {
     animation-delay: 4.5s;
 }
@@ -124,6 +137,7 @@ h1 span:nth-child(7) {
 h2 span:nth-child(1) {
     animation-delay: 2s;
 }
+
 @media screen and (width: 1024px) {
     .container-main-main::before {
         height: 88%;
@@ -136,14 +150,17 @@ h2 span:nth-child(1) {
         position: relative;
         /*z-index: -1;*/
     }
+
     h2 {
         top: -4em;
         position: relative;
         /*z-index: -1;*/
     }
+
     .container-main {
         width: 131%;
     }
+
     .container-main::before {
         //position: relative;
         width: 120%;
@@ -155,30 +172,36 @@ h2 span:nth-child(1) {
     html {
         overflow-x: hidden;
     }
+
     .container-main {
         width: 100%;
     }
+
     .container-main::before {
         width: 104%;
         height: 66%;
         //position: relative;
         //left: 9em;
     }
+
     .container-main h1 {
         top: -1em;
         //left: .1em;
         position: relative;
     }
+
     .container-main h2 {
         top: -1.1em;
         //left: .1em;
         position: relative;
     }
+
     h1 span,
     h2 span {
         font-size: 0.3em;
     }
 }
+
 @media screen and (max-width: 425px) {
     .container-main::before {
         position: absolute;
@@ -192,6 +215,7 @@ h2 span:nth-child(1) {
 }
 
 @media screen and (max-width: 375px) {
+
     .container-main h1,
     .container-main h2 {
         font-size: 110px;
@@ -199,18 +223,22 @@ h2 span:nth-child(1) {
         top: -3em;
     }
 }
+
 @media screen and (max-width: 360px) {
     body {
         display: none;
     }
+
     .container-main {
         width: 137%;
     }
+
     .container-main::before {
         width: 180%;
         //top: 6.3em;
         height: 80%;
     }
+
     .container-main h1,
     .container-main h2 {
         top: -2em;
@@ -223,6 +251,7 @@ h2 span:nth-child(1) {
     .container-main {
         width: 100%;
     }
+
     .container-main h1,
     .container-main h2 {
         top: -4em;

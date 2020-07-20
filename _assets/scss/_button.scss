@@ -4,7 +4,7 @@
     align-items: center;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
-    border-bottom: 2px dotted #0ff;
+
 }
 
 .btn {
@@ -28,6 +28,7 @@
     overflow: hidden;
     transition: 0.2s;
 }
+
 .btn-1:hover {
     color: #255784;
     background-color: #2196f3;
@@ -39,6 +40,7 @@
 .btn-1 span {
     position: absolute;
 }
+
 .btn-1 span:nth-child(1) {
     top: 0;
     left: -100%;
@@ -46,10 +48,12 @@
     height: 2px;
     background: linear-gradient(90deg, transparent, #219621);
 }
+
 .btn-1:hover span:nth-child(1) {
     left: 100%;
     transition: 1s;
 }
+
 .btn-1 span:nth-child(3) {
     bottom: 0;
     right: -100%;
@@ -57,11 +61,13 @@
     height: 2px;
     background: linear-gradient(270deg, transparent, #219621);
 }
+
 .btn-1:hover span:nth-child(3) {
     right: 100%;
     transition: 1s;
     transition-delay: 0.5s;
 }
+
 .btn-1 span:nth-child(2) {
     top: -100%;
     right: 0%;
@@ -69,11 +75,13 @@
     height: 100%;
     background: linear-gradient(180deg, transparent, #219621);
 }
+
 .btn-1:hover span:nth-child(2) {
     top: 100%;
     transition: 1s;
     transition-delay: 0.25s;
 }
+
 .btn-1 span:nth-child(4) {
     bottom: -100%;
     left: 0%;
@@ -81,40 +89,48 @@
     height: 100%;
     background: linear-gradient(360deg, transparent, #219621);
 }
+
 .btn-1:hover span:nth-child(4) {
     bottom: 100%;
     transition: 1s;
     transition-delay: 0.75s;
 }
+
 @media screen and (max-width: 768px) {
     .btn {
         margin-left: 9em;
     }
 }
+
 @media screen and (max-width: 500px) {
     .btn {
         margin-left: 0em;
     }
 }
+
 @media screen and (max-width: 425px) {
     .me {
         margin-right: 5em;
     }
 }
+
 @media screen and (max-width: 375px) {
     .me {
         padding: 15px;
     }
+
     .btn {
         margin-left: 16em;
         padding: 15px;
     }
 }
+
 @media screen and (max-width: 360px) {
     .me {
         margin-left: 0em;
     }
 }
+
 @media screen and (max-width: 320px) {
     .btn {
         margin-left: 4em;
