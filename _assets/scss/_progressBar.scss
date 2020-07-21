@@ -5,14 +5,17 @@
     min-height: 100vh;
     background-color: #191919;
 }
+
 @supports (-moz-appearance: none) {
     .progress {
         margin-top: -1em;
     }
+
     .container-progress {
         top: 6em;
     }
 }
+
 .container-progress {
     position: relative;
     width: 900px;
@@ -80,6 +83,7 @@
     font-size: 40px;
     transition: 0.5s;
 }
+
 .percentNumber {
     top: 0;
 }
@@ -155,48 +159,58 @@ svg circle:nth-child(2) {
     /*!  Ако искам линията която запълша кръга да отговаря на процентитие*/
     stroke: #00ff07;
 }
+
 @media screen and (max-width: 918px) {
     html {
         overflow-x: hidden;
     }
+
     .progress {
         width: 131%;
     }
+
     .container-progress {
         width: 874px;
         padding-left: 0.5em;
         margin-left: 18em;
         flex-direction: column;
     }
+
     .text {
         top: 0em;
     }
 }
+
 @media screen and (max-width: 768px) {
     html {
         overflow-x: hidden;
     }
+
     .progress {
-        width: 131%;
+        width: 100%;
     }
+
     .container-progress {
-        width: 874px;
+
         padding-left: 0.5em;
         margin-left: 15em;
         flex-direction: column;
     }
+
     .text {
         top: 0em;
     }
 }
+
 @media screen and (max-width: 600px) {
     body {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
+
     .container-progress {
-        width: 270px;
+        //width: 270px;
         flex-direction: column;
     }
 }
@@ -205,30 +219,52 @@ svg circle:nth-child(2) {
     .progress {
         width: 100%;
     }
+
     .container-progress {
         margin-left: 1em;
     }
+
     .text {
         margin-top: 66px;
     }
 }
+
 @media screen and (max-width: 425px) {
     .progress {
-        width: 105.2%;
+        width: 100.3%;
+
+    }
+
+    .container-progress {
+        width: 100%;
+        margin-left: 0em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
+
 @media screen and (max-width: 375px) {
     .container-progress {
-        right: 1.5em;
+        width: 100%;
+        margin-left: 0em;
+        justify-content: center;
+        align-items: center;
     }
 }
+
 @media screen and (max-width: 360px) {
-    .progress {
-        width: 137%;
-    }
+    .progress {}
 }
+
 @media screen and (max-width: 320px) {
     .container-progress {
-        margin-left: -5em;
+        margin: 0 auto;
+        right: 0em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+
+
 }

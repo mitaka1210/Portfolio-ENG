@@ -97,9 +97,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .btn {
-        margin-left: 9em;
-    }
+    .btn {}
 }
 
 @media screen and (max-width: 500px) {
@@ -109,9 +107,7 @@
 }
 
 @media screen and (max-width: 425px) {
-    .me {
-        margin-right: 5em;
-    }
+    .me {}
 }
 
 @media screen and (max-width: 375px) {
@@ -120,7 +116,7 @@
     }
 
     .btn {
-        margin-left: 16em;
+
         padding: 15px;
     }
 }
@@ -132,6 +128,11 @@
 }
 
 @media screen and (max-width: 320px) {
+    .me {
+        position: relative;
+
+    }
+
     .btn {
         margin-left: 4em;
     }

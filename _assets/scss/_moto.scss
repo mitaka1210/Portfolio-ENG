@@ -17,6 +17,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .moto {
     display: flex;
     flex-direction: column;
@@ -26,12 +27,15 @@
     padding-top: 1em;
     width: 60%;
 }
+
 .motto-git img {
     margin-left: 0em;
 }
+
 .moto-2 p {
     background-image: linear-gradient(to right top, #e1154a, #e9570a, #d38e00, #9fbd00, #11e536);
 }
+
 .moto h4 {
     display: flex;
     justify-content: center;
@@ -50,16 +54,20 @@
 
     border-top: 3px solid #645;
 }
+
 b {
     font-size: 1.6em;
     color: black;
 }
+
 .forMe {
     padding: 38px;
 }
+
 .forMe h5 {
     font-size: 2em;
 }
+
 .containerAbout {
     display: flex;
     justify-content: space-between;
@@ -72,6 +80,7 @@ b {
     width: 200px;
     height: auto;
 }
+
 .card-about {
     height: 290px;
 
@@ -81,14 +90,17 @@ b {
     transition: 0.4s;
     box-shadow: 5px 12px 34px rgba(0, 0, 0, 1);
 }
+
 .card-about:hover {
     height: 470px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
+
 .card-about .img {
     height: 200px;
     width: 100%;
 }
+
 .card-about .img img {
     height: 100%;
     width: 100%;
@@ -98,14 +110,17 @@ b {
 .card-about .top-text {
     padding: 5px;
 }
+
 .top-text h6 {
     font-size: 1.2em;
 }
+
 .card-about .top-text .name {
     font-size: 25px;
     font-weight: 600;
     color: #202020;
 }
+
 .card-about .top-text p {
     font-size: 13px;
     font-weight: 600;
@@ -130,10 +145,12 @@ b {
 .card .bottom-text .text-about {
     text-align: initial;
 }
+
 .card-about .bottom-text .btn {
     margin: 10px 0;
     text-align: left;
 }
+
 .card-about .bottom-text .btn a {
     text-decoration: none;
     background-color: #e74c3c;
@@ -143,6 +160,7 @@ b {
     display: inline-flex;
     transition: 0.2s;
 }
+
 .card-about .bottom-text .btn a:hover {
     transform: scale(0.9);
 }
@@ -154,13 +172,15 @@ b {
         padding-bottom: 3em;
         width: 50%;
     }
+
     .motto-git img {
         width: 49em;
         margin-left: 0em;
     }
 }
-@media screen and (max-width: 1024px) {
-}
+
+@media screen and (max-width: 1024px) {}
+
 @media screen and (max-width: 978px) {
     .containerAbout {
         flex-wrap: wrap;
@@ -176,12 +196,14 @@ b {
 
 @media screen and (max-width: 768px) {
     .box-about {
-        width: 128%;
-        padding-left: 1em;
+        width: 100%;
+
     }
+
     .moto {
         width: 80%;
     }
+
     .motto-git img {
         display: block;
         width: 50%;
@@ -193,6 +215,7 @@ b {
     .moto {
         width: 79%;
     }
+
     .moto-2 p {
         width: 71%;
     }
@@ -200,6 +223,7 @@ b {
     .ow {
         padding-right: 9em;
     }
+
     .bgr-container-card {
         margin-right: 11em;
     }
@@ -209,12 +233,15 @@ b {
     .box-about {
         width: 100%;
     }
+
     .ow {
         padding-right: 2em;
     }
+
     .moto-2 p {
         width: 92%;
     }
+
     .bgr-container-card {
         display: flex;
         flex-direction: column;
@@ -222,6 +249,7 @@ b {
         align-items: center;
         margin: 0;
     }
+
     .moto {
         display: flex;
         align-items: center;
@@ -237,6 +265,7 @@ b {
         margin-left: 0em;
     }
 }
+
 //@media screen and ( max-width: 425px ){
 //    .box-about  {
 //        width: 100%;
@@ -285,78 +314,38 @@ b {
 //        margin-right: 0em;
 //    }
 //}
-//@media screen and ( max-width: 375px ){
-//.ow {
-//    overflow-wrap: break-word;
-//    word-wrap: break-word;
-//    hyphens: auto;
-//}
-//.motto-text-text2 {
-//    background-color: red;
-//    width: 19em;
-//    margin-right: 23em;
-//}
-//.moto-2 {
-//    padding-left: 0em;
-//    margin-left: 7em;
-//    width: 25em;
-//}
-//.moto h4 {
-//    width: 17em;
-//margin-left: -4em;
-//}
-//.moto p {
-//    width: 18em;
-//    margin-left: -4em;
-//}
-//.forMe {
-//    width: 40.5%;
-//    margin-right: 23em;
-//}
-//.motto-git {
-//    margin-left: -4em;
-//}
+@media screen and (max-width: 375px) {
+    .box-about {
+        width: 100%;
+    }
 
-//.motto-git img {
-//    width: 17em;
-//    height: 5em;
-//    margin-left: 3em;
-//}
-//.containerAbout{
-//    display: flex;
-//    justify-content: center;
-//    flex-direction: column;
-//    margin-left: -1em;
-//}
-//.bgr-containerAbout-card {
-//    background-image: none;
-//    width: 47.8%;
-//margin-right: 22em;
-//}
-//}
+}
+
 @media screen and (max-width: 360px) {
     body {
         width: 100%;
     }
-    .moto {
-        margin-left: 4em;
-    }
-    .box-about {
-        width: 135%;
-    }
+
+    .moto {}
+
+    .box-about {}
+
     .moto-2 {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .motto-git {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .text-about p {
         font-size: 18px;
     }
+
     //.bgr-container-card,
     //.forMe {
     //    background-image: linear-gradient(to right top, #4288f2, #00acff, #00c8f1, #00dba5, #11e536);

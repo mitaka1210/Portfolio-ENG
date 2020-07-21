@@ -39,46 +39,47 @@
 .bgr-1 {
     background: rgba(255, 146, 10, 1);
 }
+
 .bgr-2 {
     background: rgba(84, 255, 82, 1);
 }
+
 .bgr-3 {
     background-color: rgba(169, 3, 41, 1);
 }
+
 .bgr-4 {
-    background-image: linear-gradient(
-        to right top,
-        #e5ccda,
-        #decae2,
-        #d0cbea,
-        #bcccf0,
-        #a4cff1,
-        #96d3f3,
-        #87d8f2,
-        #7adcee,
-        #71e4f1,
-        #69ecf3,
-        #62f3f3,
-        #5ffbf1
-    );
+    background-image: linear-gradient(to right top,
+            #e5ccda,
+            #decae2,
+            #d0cbea,
+            #bcccf0,
+            #a4cff1,
+            #96d3f3,
+            #87d8f2,
+            #7adcee,
+            #71e4f1,
+            #69ecf3,
+            #62f3f3,
+            #5ffbf1);
 }
+
 .bgr-5 {
-    background-image: linear-gradient(
-        to right top,
-        #0342d1,
-        #7045ca,
-        #9b4dc2,
-        #ba5abb,
-        #d16bb6,
-        #e372ad,
-        #f17ca6,
-        #fb889f,
-        #ff8e8e,
-        #ff977c,
-        #ffa26c,
-        #fbb05f
-    );
+    background-image: linear-gradient(to right top,
+            #0342d1,
+            #7045ca,
+            #9b4dc2,
+            #ba5abb,
+            #d16bb6,
+            #e372ad,
+            #f17ca6,
+            #fb889f,
+            #ff8e8e,
+            #ff977c,
+            #ffa26c,
+            #fbb05f);
 }
+
 .container2 .card:hover .imgBx {
     width: 150px;
     height: 150px;
@@ -137,15 +138,18 @@
     text-decoration: none;
     color: #fff;
 }
+
 @media screen and (width: 1024px) {
     .container2 .card:hover .imgBx {
         left: -105px;
     }
 }
+
 @media screen and (max-width: 992px) {
     nav {
         width: 100%;
     }
+
     .container2 {
         width: 100%;
         flex-direction: column;
@@ -153,20 +157,23 @@
         margin: 0px;
         margin-top: 2em;
     }
+
     .container2 .card {
         width: 400px;
     }
 }
+
 @media screen and (max-width: 768px) {
-    .container2 {
-        margin-left: 1em;
-    }
+    .container2 {}
+
     .container2 .card .imgBx {
-        width: 140%;
+        width: 102%;
     }
+
     .container2 .card .imgBx img {
         max-width: 384px;
     }
+
     .card-images {
         width: 589px;
         height: 144px;
@@ -180,13 +187,16 @@
         margin: 9px;
         padding-top: 2em;
     }
+
     .container2 .card .imgBx {
         width: 116%;
     }
+
     .container2 .card .imgBx img {
         width: 13em;
         height: auto;
     }
+
     /*.container2 .card {
         right: 10em;
     }*/
@@ -196,25 +206,30 @@
         left: -47px;
     }
 }
+
 @media screen and (max-width: 425px) {
     .container2 {
-        width: 113%;
-        margin-left: 13em;
+        width: 91.9%;
+
     }
 }
+
 @media screen and (max-width: 375px) {
     .container2 {
         width: 90%;
         margin-left: 0;
     }
+
     .container2 .card {
         width: 348px;
         margin-right: 0em;
     }
+
     .container2 .card .imgBx {
-        width: 116%;
+        width: 100%;
     }
 }
+
 @media screen and (max-width: 360px) {
     .container2 {
         width: 80%;
@@ -223,41 +238,46 @@
 }
 
 @media screen and (max-width: 320px) {
-    .nav-links {
-    }
+    .nav-links {}
 
     .container2 {
         //   background-color: red;
-        width: 100%;
+        width: 90%;
         margin: 0px;
     }
+
     .container2 .card {
         max-width: 300px;
         flex-direction: column;
         height: auto;
     }
+
     .container2 .card .imgBx {
         position: relative;
-    }
-    .container2 .card .imgBx,
-    .container2 .card:hover .imgBx {
-        width: 319px;
+        width: 300px;
         height: 204px;
     }
+
+    .container2 .card .imgBx,
+    .container2 .card:hover .imgBx {}
+
     .container2 .card:hover .imgBx {
         top: calc(50% - 75px);
         transition: 0.5s ease-in-out;
         background-color: #3498db;
-        left: -21em;
+        left: -61px;
     }
+
     .container2 .card .imgBx img,
     .container2 .card:hover .imgBx img {
-        max-width: 100px;
+        max-width: 260px;
     }
+
     .container2 .card .content {
         position: relative;
         width: 100%;
-        top: -10em;
-        left: 0em;
+        top: -14em;
+        left: 39px;
+        padding: 0;
     }
 }
