@@ -238,7 +238,7 @@ h2 span:nth-child(1) {
     }
 
     .container-main::before {
-        height: 55%;
+        height: 50%;
     }
 
     .container-main h1 {
@@ -252,14 +252,12 @@ h2 span:nth-child(1) {
 }
 
 @media screen and (max-width: 360px) {
-    body {
-        display: none;
-    }
+
 
     .container-main {}
 
     .container-main::before {
-
+        height: 40%;
         //top: 6.3em;
 
     }
@@ -274,6 +272,9 @@ h2 span:nth-child(1) {
 
 @media screen and (max-width: 320px) {
 
+    .container-main {
+        width: 100.2%;
+    }
 
     .container-main h1,
     .container-main h2 {
