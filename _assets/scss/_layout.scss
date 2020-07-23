@@ -164,7 +164,7 @@ h2 span:nth-child(1) {
     .container-main::before {
         //position: relative;
         width: 100%;
-        height: 70%;
+        height: 50%;
     }
 }
 
@@ -184,50 +184,52 @@ h2 span:nth-child(1) {
         //left: 9em;
     }
 
-    .container-main h1 {
-        top: -1em;
-        //left: .1em;
-        position: relative;
-    }
-
+    .container-main h1,
     .container-main h2 {
-        top: -1.1em;
-        //left: .1em;
+        right: .2em;
+        top: -3.5em;
         position: relative;
+        font-size: 3em;
     }
 
-    h1 span,
-    h2 span {
-        font-size: 0.3em;
+    .container-main h1 {
+        //right: 4.6em;
     }
+
+
+
+
 }
 
 @media screen and (max-width: 425px) {
     .container-main::before {
         position: absolute;
         //width: 224%;
-        height: 100%;
+
+    }
+
+    .container-main {
+        width: 126.5%;
     }
 
     .container-main h1,
     .container-main h2 {
-        top: -1.5em;
-        font-size: 10em;
+        top: -2.5em;
+        //left: 139px;
+        font-size: 4em;
 
 
     }
 
-    .container-main h1 {
 
-        left: -10px;
-    }
 
-    .container-main {
-        width: 100%;
-    }
+
 }
 
 @media screen and (max-width: 375px) {
+    .container-main {
+        width: 120%;
+    }
 
     .container-main h1,
     .container-main h2 {
@@ -278,8 +280,8 @@ h2 span:nth-child(1) {
 
     .container-main h1,
     .container-main h2 {
-        top: -1.3em;
-        font-size: 83px;
+        top: -2.3em;
+        font-size: 2.5em;
 
         //left: -.3em;
     }

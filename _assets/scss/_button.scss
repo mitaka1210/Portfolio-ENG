@@ -100,8 +100,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .btn {
-  }
+  .btn {}
 }
 
 @media screen and (max-width: 500px) {
@@ -112,12 +111,16 @@
 
 @media screen and (max-width: 425px) {
   .me {
+    position: relative;
+    left: 4em;
   }
 }
 
 @media screen and (max-width: 375px) {
   .me {
     padding: 15px;
+    position: relative;
+    left: 2em;
   }
 
   .btn {

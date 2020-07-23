@@ -166,13 +166,13 @@ svg circle:nth-child(2) {
     }
 
     .progress {
-        width: 131%;
+        width: 100%;
     }
 
     .container-progress {
         width: 874px;
         padding-left: 0.5em;
-        margin-left: 18em;
+
         flex-direction: column;
     }
 
@@ -191,9 +191,10 @@ svg circle:nth-child(2) {
     }
 
     .container-progress {
-
+        display: flex;
         padding-left: 0.5em;
-        margin-left: 15em;
+        justify-content: center;
+        align-items: center;
         flex-direction: column;
     }
 
@@ -202,18 +203,7 @@ svg circle:nth-child(2) {
     }
 }
 
-@media screen and (max-width: 600px) {
-    body {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
 
-    .container-progress {
-        //width: 270px;
-        flex-direction: column;
-    }
-}
 
 @media screen and (max-width: 500px) {
     .progress {
@@ -221,7 +211,11 @@ svg circle:nth-child(2) {
     }
 
     .container-progress {
-        margin-left: 1em;
+        width: 100%;
+        margin-left: 0em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .text {
@@ -231,7 +225,7 @@ svg circle:nth-child(2) {
 
 @media screen and (max-width: 425px) {
     .progress {
-        width: 100.3%;
+        width: 126.5%;
 
     }
 
@@ -245,6 +239,10 @@ svg circle:nth-child(2) {
 }
 
 @media screen and (max-width: 375px) {
+    .progress {
+        width: 120%;
+    }
+
     .container-progress {
         width: 100%;
         margin-left: 0em;
