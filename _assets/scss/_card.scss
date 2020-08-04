@@ -80,6 +80,10 @@
       #fbb05f);
 }
 
+.bgr-6 {
+  background-image: linear-gradient(to right top, #0be131, #96c600, #cba700, #eb8500, #f6643e, #f96547, #fc664f, #ff6857, #ff863e, #ffa722, #f5ca00, #d9eb1b);
+}
+
 .container2 .card:hover .imgBx {
   width: 150px;
   height: 150px;
@@ -219,7 +223,12 @@
 @media screen and (max-width: 375px) {
   .container2 {
     width: 90%;
-    margin-left: 0;
+    margin-left: 2em;
+
+  }
+
+  .container2 .card .content {
+    left: 5em;
   }
 
   .container2 .card {
@@ -239,8 +248,8 @@
   }
 
   .container2 .card .content {
+    left: 5em;
 
-    left: 0em;
   }
 
 }
