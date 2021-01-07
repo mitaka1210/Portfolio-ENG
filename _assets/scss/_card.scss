@@ -212,7 +212,7 @@
   }
 
   .container2 .card .imgBx {
-    width: 116%;
+    width: 96%;
   }
 
   .container2 .card .imgBx img {
@@ -239,7 +239,7 @@
 @media screen and (max-width: 375px) {
   .container2 {
     width: 90%;
-    margin-left: 2em;
+    margin-left: 1em;
 
   }
 
@@ -259,7 +259,7 @@
 
 @media screen and (max-width: 360px) {
   .container2 {
-    width: 80%;
+    width: calc(100% + 20px);
 
   }
 
@@ -279,7 +279,7 @@
 
   .container2 {
     //   background-color: red;
-    width: 90%;
+    width: calc(100% + 60px);
     margin: 0px;
   }
 

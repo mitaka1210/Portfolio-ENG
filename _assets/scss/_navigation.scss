@@ -90,10 +90,10 @@ nav {
 
     //height: 110vh;
     width: 100%;
-
+    right: 0rem;
     flex-direction: column;
-    clip-path: circle(100px at 90% -10%);
-    -webkit-clip-path: circle(90px at 90% -10%);
+    clip-path: circle(100px at 90% 20%);
+    -webkit-clip-path: circle(90px at 90% -20%);
     transition: all 1s ease-out;
     pointer-events: none;
     z-index: 1;
@@ -226,7 +226,7 @@ nav {
   }
 
   nav {
-    //width: 48em;
+    width: calc(100% + 10px);
   }
 
   @supports (-moz-appearance: none) {
@@ -245,7 +245,7 @@ nav {
   @include chrome-styles {
     .nav-links {
       clip-path: circle(1000px at 90% -7%);
-      -webkit-clip-path: circle(113px at 90% -10%);
+      -webkit-clip-path: circle(113px at 90% -7%);
       height: 130vh;
       //width: 100%;
       //height: 100%;
@@ -281,11 +281,12 @@ nav {
   }
 
   nav {
-    width: 105%;
+    width: 100%;
   }
 
   .hamburger {
-    right: 4%;
+    margin-top: 0em;
+    right: 3%;
   }
 
   @mixin chrome-styles {
@@ -296,8 +297,8 @@ nav {
 
   @include chrome-styles {
     .nav-links {
-      clip-path: circle(1000px at 90% -7%);
-      -webkit-clip-path: circle(113px at 90% -10%);
+      clip-path: circle(1000px at 90% 10%);
+      -webkit-clip-path: circle(113px at 90% -9%);
       height: 130vh;
 
       //width: 100%;

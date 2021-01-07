@@ -178,7 +178,7 @@ h2 span:nth-child(1) {
     }
 
     .container-main::before {
-        width: 100%;
+        width: calc(100% + 5px);
         height: 66%;
         //position: relative;
         //left: 9em;
@@ -241,6 +241,7 @@ h2 span:nth-child(1) {
 
     .container-main::before {
         height: 50%;
+        left: 4rem;
     }
 
     .container-main h1 {

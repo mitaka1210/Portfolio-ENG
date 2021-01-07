@@ -883,7 +883,7 @@
 
 @media screen and (max-width: 425px) {
   .site-footer {
-    width: 126.4%;
+    width: calc(100% + 10px);
   }
 
   .help {
@@ -915,7 +915,7 @@
 
 @media screen and (max-width: 375px) {
   .site-footer {
-    width: 120%;
+       width: calc(100% + 70.5px);
   }
 
   .footer {
