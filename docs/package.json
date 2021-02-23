@@ -17,6 +17,7 @@
     "array-unique": "^0.3.2",
     "assign-symbols": "^1.0.0",
     "atob": "^2.1.2",
+    "caniuse-lite": "^1.0.30001191",
     "child_process": "^1.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-csso": "^4.0.1",

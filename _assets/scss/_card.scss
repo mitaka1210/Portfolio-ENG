@@ -49,55 +49,182 @@
 }
 
 .bgr-4 {
-  background-image: linear-gradient(to right top,
-      #e5ccda,
-      #decae2,
-      #d0cbea,
-      #bcccf0,
-      #a4cff1,
-      #96d3f3,
-      #87d8f2,
-      #7adcee,
-      #71e4f1,
-      #69ecf3,
-      #62f3f3,
-      #5ffbf1);
+  background-image: linear-gradient(
+    to right top,
+    #e5ccda,
+    #decae2,
+    #d0cbea,
+    #bcccf0,
+    #a4cff1,
+    #96d3f3,
+    #87d8f2,
+    #7adcee,
+    #71e4f1,
+    #69ecf3,
+    #62f3f3,
+    #5ffbf1
+  );
 }
 
 .bgr-5 {
-  background-image: linear-gradient(to right top,
-      #0342d1,
-      #7045ca,
-      #9b4dc2,
-      #ba5abb,
-      #d16bb6,
-      #e372ad,
-      #f17ca6,
-      #fb889f,
-      #ff8e8e,
-      #ff977c,
-      #ffa26c,
-      #fbb05f);
+  background-image: linear-gradient(
+    to right top,
+    #0342d1,
+    #7045ca,
+    #9b4dc2,
+    #ba5abb,
+    #d16bb6,
+    #e372ad,
+    #f17ca6,
+    #fb889f,
+    #ff8e8e,
+    #ff977c,
+    #ffa26c,
+    #fbb05f
+  );
 }
 
 .bgr-6 {
-  background-image: linear-gradient(to right top, #0be131, #96c600, #cba700, #eb8500, #f6643e, #f96547, #fc664f, #ff6857, #ff863e, #ffa722, #f5ca00, #d9eb1b);
+  background-image: linear-gradient(
+    to right top,
+    #0be131,
+    #96c600,
+    #cba700,
+    #eb8500,
+    #f6643e,
+    #f96547,
+    #fc664f,
+    #ff6857,
+    #ff863e,
+    #ffa722,
+    #f5ca00,
+    #d9eb1b
+  );
 }
 
 .bgr-7 {
-  background-image: linear-gradient(to left bottom, #36d62f, #00d592, #00ced9, #00bfff, #00abff, #8e9afd, #d284e2, #fb70b3, #ff7080, #ff834e, #df9c23, #acb317);
+  background-image: linear-gradient(
+    to left bottom,
+    #36d62f,
+    #00d592,
+    #00ced9,
+    #00bfff,
+    #00abff,
+    #8e9afd,
+    #d284e2,
+    #fb70b3,
+    #ff7080,
+    #ff834e,
+    #df9c23,
+    #acb317
+  );
 }
 
 .bgr-8 {
-  background-image: linear-gradient(to left bottom, #2f2fd6, #0070fa, #0096ef, #00b4cd, #00cdae, #50cd8e, #7cca6e, #a3c551, #aeaa31, #b48e1a, #b67211, #b35417);
+  background-image: linear-gradient(
+    to left bottom,
+    #2f2fd6,
+    #0070fa,
+    #0096ef,
+    #00b4cd,
+    #00cdae,
+    #50cd8e,
+    #7cca6e,
+    #a3c551,
+    #aeaa31,
+    #b48e1a,
+    #b67211,
+    #b35417
+  );
 }
 
 .bgr-9 {
-  background-image: linear-gradient(to left bottom, #2fd653, #49d95d, #5ddd66, #6de06f, #7ce379, #8adb6e, #96d465, #9fcc5d, #a8b743, #afa22d, #b28c1e, #b37617);
+  background-image: linear-gradient(
+    to left bottom,
+    #2fd653,
+    #49d95d,
+    #5ddd66,
+    #6de06f,
+    #7ce379,
+    #8adb6e,
+    #96d465,
+    #9fcc5d,
+    #a8b743,
+    #afa22d,
+    #b28c1e,
+    #b37617
+  );
 }
 
 .bgr-10 {
-  background-image: linear-gradient(to left bottom, #2f95d6, #00a9de, #00bcd9, #00ccc7, #11daad, #42da9f, #5fda90, #76da82, #63d07f, #4fc77c, #38bd79, #17b376);
+  background-image: linear-gradient(
+    to left bottom,
+    #2f95d6,
+    #00a9de,
+    #00bcd9,
+    #00ccc7,
+    #11daad,
+    #42da9f,
+    #5fda90,
+    #76da82,
+    #63d07f,
+    #4fc77c,
+    #38bd79,
+    #17b376
+  );
+}
+.bgr-11 {
+  background-image: linear-gradient(
+    to left bottom,
+    #e7e275,
+    #d2e372,
+    #bae472,
+    #a0e476,
+    #81e47d,
+    #6ee38b,
+    #5be199,
+    #47dfa6,
+    #54dbb5,
+    #66d6c0,
+    #7cd1c6,
+    #92cbc8
+  );
+}
+
+.bgr-12 {
+  background-image: linear-gradient(
+    to left bottom,
+    #a46ced,
+    #0099ff,
+    #00b7ff,
+    #00cce8,
+    #00dabe,
+    #4dd68e,
+    #82ce58,
+    #b4c119,
+    #dba424,
+    #ee8947,
+    #ec7469,
+    #d86b87
+  );
+}
+
+.bgr-13 {
+  background-image: linear-gradient(
+    to left bottom,
+    #7ded6c,
+    #a9d33b,
+    #c6b714,
+    #da990f,
+    #e57927,
+    #e86b39,
+    #e75e4a,
+    #e35459,
+    #e25966,
+    #df5f72,
+    #dc657d,
+    #d86b87
+  );
 }
 
 .container2 .card:hover .imgBx {
@@ -240,7 +367,6 @@
   .container2 {
     width: 90%;
     margin-left: 1em;
-
   }
 
   .container2 .card .content {
@@ -260,18 +386,16 @@
 @media screen and (max-width: 360px) {
   .container2 {
     width: calc(100% + 20px);
-
   }
 
   .container2 .card .content {
     left: 5em;
-
   }
-
 }
 
 @media screen and (max-width: 320px) {
-  .nav-links {}
+  .nav-links {
+  }
 
   .content-Text {
     width: 83%;
@@ -296,7 +420,8 @@
   }
 
   .container2 .card .imgBx,
-  .container2 .card:hover .imgBx {}
+  .container2 .card:hover .imgBx {
+  }
 
   .container2 .card:hover .imgBx {
     top: calc(50% - 75px);
